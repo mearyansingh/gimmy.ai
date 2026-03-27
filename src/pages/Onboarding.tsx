@@ -64,7 +64,7 @@ function Onboarding() {
     preferredSplit: "upper_lower",
   });
   const [isGenerating, setIsGenerating] = useState(false);
-  const [error, setError] = useState("");
+  const [_error, setError] = useState("");
   const navigate = useNavigate();
 
 

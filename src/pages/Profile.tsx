@@ -3,7 +3,7 @@ import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { useAuth } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
-import { PlanDisplay } from '../components/plan/Plandisplay';
+import { PlanDisplay } from '../components/plan/PlanDisplay';
 
 function Profile() {
   const { user, isLoading, plan, generatePlan } = useAuth();
