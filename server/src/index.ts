@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://gimmy-ai.onrender.com"
+      "https://gimmy-ai.vercel.app"
     ],
     credentials: true,
   })
